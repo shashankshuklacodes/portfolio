@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(186, 186, 213);
+    font-size: 1.2rem;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+    align-items: center;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftsection {
+    font-size: 2.3rem;
+
+}
+
+.conn {
+    margin: 40px 0 0 20px;
+}
+
+.rightsection img {
+    width: 400px;
+    margin: 50px 0;
+    border-radius: 50%;
+}
+
+.purple {
+    color: blueviolet;
+}
+
+main hr {
+    border: 0;
+    background: rgb(139, 53, 219);
+    margin: 30px 10px;
+    height: 2px;
+}
+
+.secondSection {
+    max-width: 100vw;
+    /* margin: auto; */
+}
+
+.about {
+    background-color: rgb(139, 53, 219);
+    height: 80px;
+}
+
+.about h1 {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.img2 {
+    background-color: aliceblue;
+    height: 450px;
+}
+
+.img2 img {
+    margin-top: 90px;
+    margin-left: 43%;
+    /* padding: 100px; */
+    border-radius: 50%;
+    object-fit: cover;
+    height: 180px;
+    width: 180px;
+}
+
+
+h2 {
+    color: black;
+    font-family: 'Poppins', Cambria;
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+.description {
+    background-color: aliceblue;
+    height: 535px;
+}
+
+.box {
+    box-shadow: 5px 5px 10px 5px rgba(5, 2, 3, 0.911);
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 5px 5px 5px;
+    background-color: rgb(231, 228, 223);
+}
+
+.box h3 {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.description p {
+    display: block;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    font-size: large;
+}
+
+.thirdSection {
+    position: relative;
+    height: 700px;
+    width: 100vw;
+    background-color: aliceblue;
+}
+
+.project {
+    background-color: rgb(139, 53, 219);
+    height: 80px;
+}
+
+.project h1 {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    /* margin: 10px; */
+}
+
+.projectss {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50%;
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5%;
+}
+
+.p1 {
+    /* border-top: 2px solid black; */
+    height: 100%;
+    width: 31%;
+}
+
+.cal {
+    color: black;
+}
+
+.p2 {
+    position: relative;
+    top: -20%;
+}
+
+.todo {
+   
+    color: black;
+}
+
+.end{
+    background-color: rgb(139, 53, 219);
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+.contact p{
+    font-size: 40px;
+}
+
+.contact{
+    height: 570%;
+    width: 100%;
+    font-weight: bold;
+    position: relative;
+}
+
+.contact h2{
+    font-size: 3.1rem;
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    font-weight: bolder;
+    margin: 100px auto;
+    padding: 30px 0;
+}
+
+.copyright p{
+    color: white;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 8px 0 8px 0;
+}
+
+.btn{
+    padding: 7px 7px;
+}
+
+.btn img{
+    border-radius: 50%;
+    position: relative;
+    bottom: 40px;
+}
